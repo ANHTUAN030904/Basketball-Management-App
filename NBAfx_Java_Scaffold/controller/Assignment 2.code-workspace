@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../au"
+		},
+		{
+			"path": "../au/edu"
+		},
+		{
+			"path": "../au/edu/uts"
+		},
+		{
+			"path": "../au/edu/uts/ap"
+		},
+		{
+			"path": "../au/edu/uts/ap/javafx"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../model"
+		},
+		{
+			"path": "../view"
+		}
+	]
+}

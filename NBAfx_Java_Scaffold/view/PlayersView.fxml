@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>  
+
+<VBox  xmlns:fx="http://javafx.com/fxml/1" styleClass="background" alignment="CENTER" 
+       fx:controller="controller.ViewPlayersController">
+    <Label text="All Players" styleClass="label-h2"/>    
+    <TableView fx:id="playerTableView" prefWidth="930">
+        <columns>
+            <TableColumn fx:id="teamColumn" text="Team" prefWidth="150"/>
+            <TableColumn fx:id="nameColumn" text="Player Name" prefWidth="150"/>
+            <TableColumn fx:id="creditColumn" text="Player Credit" prefWidth="150"/>
+            <TableColumn fx:id="ageColumn" text="Player Age" prefWidth="150"/>
+            <TableColumn fx:id="noColumn" text="Player No" prefWidth="150"/>
+            <TableColumn fx:id="levelColumn" text="Player Level" prefWidth="150"/>
+        </columns>
+    </TableView>
+
+    <VBox alignment="CENTER" spacing="10">
+        <Label styleClass="label-h2" text="Filter"/>
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="Filter By Level:"/>
+            <TextField fx:id="levelTextField"/>
+            <Label text="Filter By Name"/>
+            <TextField fx:id="nameTextField"/>
+        </HBox>
+        <Label text="Filter By Age:"/>
+        <HBox alignment="CENTER" spacing="5">
+            <Label text="From:"/>
+            <TextField fx:id="ageFromTextField"/>
+            <Label text="To"/>
+            <TextField fx:id="ageToTextField"/>
+        </HBox> 
+        <Button text="Close" onAction="#close"/>
+    </VBox>
+    <HBox prefHeight="10">
+    </HBox>
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>
+    
+</VBox>
