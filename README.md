@@ -1,20 +1,20 @@
-# 🏀 Basketball Management App (NBAfx)
+# Basketball Management App (NBAfx)
 
 A desktop application that provides a **Graphical User Interface (GUI)** for managing basketball teams, players, and tournaments.  
 Built using **MVC architecture**, it allows users to create teams, manage players, and simulate a season in an interactive way.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🏠 Main Menu
+### Main Menu
 - **Explore Teams** – navigate to the team management section.  
 - **Arrange a New Season** – start a new tournament and manage season rounds.  
 - **Exit** – quit the application.  
 
 ---
 
-### 👥 Team Management
+### Team Management
 - **Teams Table**  
   - Displays: Team Name, Number of Players, Average Credit, and Average Age.  
   - Add, manage, or delete teams.  
@@ -36,14 +36,14 @@ Built using **MVC architecture**, it allows users to create teams, manage player
 
 ---
 
-### 🏀 Players View
+### Players View
 - Displays all players across teams in a sortable table.  
 - Filters by **name, level, and age** (supports partial matches).  
 - Highlights selected players.  
 
 ---
 
-### 📅 Season Management
+### Season Management
 - **Season Round Window** – arrange teams into rounds, create matchups.  
 - **Current Round Teams** – view current round matchups (e.g., "Team A vs Team B").  
 - **Game Window** – simulate tournament games and display results.  
@@ -51,18 +51,9 @@ Built using **MVC architecture**, it allows users to create teams, manage player
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 - **Languages**: Java (JavaFX) or Python (Tkinter).  
 - **Architecture**: Model–View–Controller (MVC).  
 - **UI Layout**: JavaFX FXML / Tkinter GUI.  
 - **Data Binding**: Observable properties keep UI synced with model changes.  
 - **Styling**: Custom CSS included for consistent UI.  
-
----
-
-## 🚀 Getting Started
-
-### Clone the Repository
-```bash
-git clone git@github.com:ANHTUAN030904/Basketball-Management-App.git
-cd Basketball-Management-App
